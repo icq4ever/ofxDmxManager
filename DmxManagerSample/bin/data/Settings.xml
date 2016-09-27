@@ -1,0 +1,27 @@
+<GlobalSettings>
+    <DeviceID>0</DeviceID>
+    <NumberChannels>48</NumberChannels>
+    <MaximumTimeBetweenUpdates>0.500000000</MaximumTimeBetweenUpdates>
+</GlobalSettings>
+<DMXEvents>
+    <DMXEvent name="LAMP_ZERO" start="0.000000" duration="2.000000" type="linear" universe="1" fixture="1">
+        <Channel>0.000000000</Channel>
+        <Channel>0.000000000</Channel>
+        <Channel>0.000000000</Channel>
+    </DMXEvent>
+    <DMXEvent name="LAMP_RED" start="10.000000" duration="2.000000" type="linear" universe="1" fixture="1">
+        <Channel>1.000000000</Channel>
+        <Channel>0.000000000</Channel>
+        <Channel>0.000000000</Channel>
+    </DMXEvent>
+    <DMXEvent name="LAMP_GREEN" start="20.000000" duration="2.000000" type="cubic" universe="1" fixture="1">
+        <Channel>0.000000000</Channel>
+        <Channel>1.000000000</Channel>
+        <Channel>0.000000000</Channel>
+    </DMXEvent>
+    <DMXEvent name="LAMP_BLUE" start="30.000000" duration="2.000000" type="cubic" universe="1" fixture="1">
+        <Channel>0.000000000</Channel>
+        <Channel>0.000000000</Channel>
+        <Channel>1.000000000</Channel>
+    </DMXEvent>
+</DMXEvents>
