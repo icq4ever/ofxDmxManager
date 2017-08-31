@@ -5,7 +5,7 @@ This is a basic interface to setup DMX events and trigger them. It could be used
 
 It works with ofxDmx. 
 
-#XML Settings Tags
+# XML Settings Tags
 
 GlobalSettings - This is the root element for the general settings
 
@@ -31,15 +31,15 @@ fixture - The id of the fixture
 
 Then the amount of channels can be set and the individual values for every channel. As many channels per fixture as needed can be set by using as many channel tags as required.
  
-#Versions
+# Versions
 
 1.0 Simple interface to setup DMX events and trigger them
 
-#Author
+# Author
 
 Igloovision
 
-#Dependencies
+# Dependencies
 
 ofxDmx
 
